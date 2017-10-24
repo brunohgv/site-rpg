@@ -13,6 +13,7 @@ import { MenuMestreComponent } from './menu-mestre/menu-mestre.component';
 import { MenuAventureiroComponent } from './menu-aventureiro/menu-aventureiro.component';
 import { CatalogoMesasComponent } from './catalogo-mesas/catalogo-mesas.component';
 import { CardMesaComponent } from './catalogo-mesas/card-mesa/card-mesa.component';
+import { MesaComponent } from './catalogo-mesas/mesa/mesa.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CardMesaComponent } from './catalogo-mesas/card-mesa/card-mesa.componen
     MenuMestreComponent,
     MenuAventureiroComponent,
     CatalogoMesasComponent,
-    CardMesaComponent
+    CardMesaComponent,
+    MesaComponent
   ],
   imports: [
     BrowserModule,

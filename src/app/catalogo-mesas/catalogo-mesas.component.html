@@ -1,16 +1,13 @@
-<div class="index-content">
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-3">    
-              <a href="#">                
-                <div class="card">
-                  <img class="img-responsive" src="http://cevirdikce.com/proje/hasem-2/images/finance-1.jpg">
-                    <h4>Investment Strategy</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#" class="purple-button">Read More</a>
-                </div>
-              </a>
-          </div>
+<div class="row justify-content-center">
+    <div class="col-xs-12 font-hand">
+      <div class="">
+          <h4 class="row mt-4 font-standard justify-content-center">Ao se aproximar da mesa, pode-se ver um livro aberto que parece listar locais de encontro</h4>
+          <h4 class="row font-standard justify-content-center">dos aventureiros que passaram por aqui.</h4>
       </div>
+    </div>
+</div>
+<div class="index-content">
+    <div *ngFor="let mesa of mesas" class="container">
+        <app-mesa [mesa]="mesa"></app-mesa>
     </div>
 </div>

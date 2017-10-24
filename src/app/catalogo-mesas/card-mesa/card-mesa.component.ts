@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-mesa',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-mesa.component.css']
 })
 export class CardMesaComponent implements OnInit {
+
+  @Input() mesa: any
 
   constructor() { }
 
