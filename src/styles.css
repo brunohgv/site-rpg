@@ -56,6 +56,25 @@
     margin-left: 20px;
     opacity: 0.65;
 }
+.purple-button{
+    width: 100px;
+    -webkit-transition: background-color 1s , color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s , color 1s;
+    min-height: 20px;
+    background-color: #7000B2;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 20px 20px 15px 20px;
+    padding: 5px 0px;
+    display: inline-block;
+}
+.purple-button:hover{
+    background-color: #dadada;
+    color: #7000B2;
+}
+
 .index-content .purple-button{
     width: 100px;
     -webkit-transition: background-color 1s , color 1s; /* For Safari 3.1 to 6.0 */
@@ -80,3 +99,4 @@
         margin-top: 20px;
     }
 }
+

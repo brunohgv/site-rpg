@@ -14,6 +14,8 @@ import { MenuAventureiroComponent } from './menu-aventureiro/menu-aventureiro.co
 import { CatalogoMesasComponent } from './catalogo-mesas/catalogo-mesas.component';
 import { CardMesaComponent } from './catalogo-mesas/card-mesa/card-mesa.component';
 import { MesaComponent } from './catalogo-mesas/mesa/mesa.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { MesaComponent } from './catalogo-mesas/mesa/mesa.component';
     MenuAventureiroComponent,
     CatalogoMesasComponent,
     CardMesaComponent,
-    MesaComponent
+    MesaComponent,
+    CadastroComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
